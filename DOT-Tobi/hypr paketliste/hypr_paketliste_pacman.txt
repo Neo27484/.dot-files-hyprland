@@ -1,0 +1,11 @@
+hyprcursor
+hypridle
+hyprland
+hyprlang
+hyprlock
+hyprpaper
+hyprpicker
+hyprutils
+hyprwayland-scanner
+nwg-look
+xdg-desktop-portal-hyprland

@@ -1,0 +1,8 @@
+waybar
+rofi
+waypaper
+swww
+hyprpanel
+zen-browser-avx2-bin
+cava
+ags-hyprpanel-git

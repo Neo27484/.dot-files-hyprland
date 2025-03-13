@@ -1,0 +1,16 @@
+#!/bin/bash
+
+DIR=/home/tobias/Bilder/Wallpaper-Gruvbox
+PICS=($(ls ${DIR}))
+
+RANDOMPICS=${PICS[ $RANDOM % ${#PICS[@]} ]}
+
+if [[ $(pidof swaybg) ]]; then
+  pkill swaybg
+fi
+
+swww query || swww-daemon
+
+#change-wallpaper using swww
+swww img ${DIR}/${RANDOMPICS} --transition-fps 144 --transition-type random --transition-duration 3
+

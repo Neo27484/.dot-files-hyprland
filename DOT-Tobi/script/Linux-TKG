@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd /home/tobias/GitRepos/linux-tkg/
+
+kitty -T TKG -e makepkg -si | kitty -T TKG-btop -e /bin/btop
